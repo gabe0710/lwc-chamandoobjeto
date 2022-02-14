@@ -1,0 +1,32 @@
+<template>
+	<lightning-card>
+		<div class="slds-m-around_medium">
+			<!--<h1 class="slds-text-heading_large">
+				Estrutura de Dados
+			</h1>
+			<p>
+				Nome = {pessoa.nome}<br>
+				Telefone = {pessoa.tel}<br>
+				Idade = {pessoa.idade} anos<br>
+				Status = {pessoa.Status}
+			</p>
+			<h1 class="slds-text-heading_large">Meus Pokemóns!!</h1>
+
+			<template for:each={pokemons} for:item="poke">
+				<p key={poke.code}> Nome = {poke.nome} - Tipo = {poke.tipo} - Nível = {poke.nivel} </p>
+			</template>-->
+
+			<h1 class="slds-text-heading_large">Personagens Caverna do Dragão!</h1>
+
+			<img src="https://cosplace.com.br/wp-content/uploads/2021/01/caverna-do-dragao.jpg">
+
+			<h2 class="slds-text-heading_large"> Nomes e Habilidades: </h2>
+
+			<template for:each={cavernaDoDagrao} for:item="cav">
+				<p key={cav.code}> Nome = {cav.nome} || Arma = {cav.arma} || Força = {cav.forca} || Agilidade = {cav.agilidade}
+					|| Inteligência = {cav.inteligencia} || Estamina = {cav.estamina}</p>
+			</template>
+
+		</div>
+	</lightning-card>
+</template>
